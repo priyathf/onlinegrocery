@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*left frame*/
+.leftDiv {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	border:none;
+	font-size: 16px;
+	font-weight: bold;
+	overflow:auto;
+}
+
+/*top right frame*/
+.toprightDiv {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 50%;
+	height: 50%;
+	border:none;
+	background-image:url(images/rightup.jpg);
+
+	
+}
+
+/*bottom right frame*/
+.bottomrightDiv {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 50%;
+	height: 50%;
+	border:none;
+	overflow:auto;
+	background-image:url(images/rightup.jpg);
+
+}
+
+
+
+
+/*product categories*/
+.cats{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+.cats li{
+	display:block;
+	position:relative;
+}
+.cats li li:hover ul{
+	display:block;	
+}
+
+.itemlist{
+	padding:0;	
+}
+.weight{
+	padding:0;
+}
+
+
+
+#frozen{
+	background-repeat:no-repeat;
+	
+}
+/*hide items*/
+#frozen ul{
+	display:none;
+	padding:0;
+}
+/*show items on hover*/
+#frozen:hover ul{
+	display:block;
+}
+
+/*hide weights*/
+#frozen #fishfinger ul{
+	display:none;
+}
+/*show weights when hover on items*/
+#frozen #fishfinger:hover ul{
+	display:block;
+}
+#frozen #tubicecream ul{
+	display:none;
+}
+#frozen #tubicecream:hover ul{
+	display:block;
+}
+
+
+
+/*********************fresh**********************/
+#fresh{
+		background-repeat:no-repeat;	
+}
+#fresh ul{
+	display:none;
+	padding:0;
+}
+#fresh:hover ul{
+	display:block;
+}
+#fresh #cheddarcheese ul{
+	display:none;
+}
+#fresh #cheddarcheese:hover ul{
+	display:block;
+}
+
+/*********************beverages**********************/
+
+#bev{
+		background-repeat:no-repeat;	
+}
+#bev ul{
+	display:none;
+	padding:0;
+}
+#bev:hover ul{
+	display:block;
+}
+#bev #coffee ul{
+	display:none;
+}
+#bev #coffee:hover ul{
+	display:block;
+}
+#bev #earl ul{
+	display:none;
+}
+#bev #earl:hover ul{
+	display:block;
+}
+
+/*********************home**********************/
+#home{
+		background-repeat:no-repeat;	
+}
+#home ul{
+	display:none;
+	padding:0;
+}
+#home:hover ul{
+	display:block;
+}
+
+#home #panadol ul{
+	display:none;
+}
+#home #panadol:hover ul{
+	display:block;
+}
+#home #gbag ul{
+	display:none;
+}
+#home #gbag:hover ul{
+	display:block;
+}
+
+/*********************pets**********************/
+#pets{
+		background-repeat:no-repeat;	
+}
+#pets ul{
+	display:none;
+	padding:0;
+}
+#pets:hover ul{
+	display:block;
+}
+#pets #dogfood ul{
+	display:none;
+}
+#pets #dogfood:hover ul{
+	display:block;
+}
+
+
+
+.imgcats{
+	height:20%
+	width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+#selectedItem{
+	position:relative;
+	top:30%;
+	left:10%;	
+}
+/*
+.submenuGrams {
+	display:none;
+	position:absolute;	
+}
+.itemsGrams {
+	position:relative;
+}
+.itemsGrams:hover .submenuGrams {
+	display:block;
+}
+
+*/
+
+
